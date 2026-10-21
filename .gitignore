@@ -1,0 +1,23 @@
+# Python environment & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# Tệp dữ liệu lớn (tránh vượt giới hạn 100MB của GitHub)
+data/gold_data_local.csv
+data/gold_features.parquet/
+*.csv.gz
+
+# Tệp checksum do Spark sinh ra khi ghi Parquet
+*.crc
+.*.crc
+
+# Trọng số mô hình nhị phân kích thước lớn
+models/*.pkl
+
+# Thư mục cấu hình IDE cục bộ
+.vscode/
+.idea/

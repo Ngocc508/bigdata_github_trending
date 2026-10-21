@@ -1,0 +1,7 @@
+streamlit>=1.40
+pandas
+numpy
+plotly
+joblib
+# Dùng đúng phiên bản scikit-learn đã huấn luyện file .pkl (xem bằng: python -c "import sklearn; print(sklearn.__version__)")
+scikit-learn

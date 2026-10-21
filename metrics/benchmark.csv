@@ -1,0 +1,11 @@
+experiment,config,value,unit
+Dung lượng 1 ngày,JSON.gz thô,1268.8,MB
+Dung lượng 1 ngày,Parquet (Snappy),106.4,MB
+Định dạng lưu trữ (dữ liệu 1 ngày),JSON.gz thô,46.2,giây
+Định dạng lưu trữ (dữ liệu 1 ngày),Parquet (Snappy),0.2,giây
+Khối lượng dữ liệu (số ngày),1 ngày,0.9,giây
+Khối lượng dữ liệu (số ngày),3 ngày,1.7,giây
+Khối lượng dữ liệu (số ngày),7 ngày,3.3,giây
+Số luồng xử lý (cùng một máy),local[1],8.1,giây
+Số luồng xử lý (cùng một máy),local[2],4.4,giây
+Số luồng xử lý (cùng một máy),local[4],3.4,giây
